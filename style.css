@@ -90,7 +90,7 @@ article{
 @media (max-width:600px){
 .icon{
     position: relative;
-    left: 83%;
+    left: 80%;
     top:-91.5px;
     font-size:1rem;
 
@@ -105,12 +105,14 @@ article{
     position:relative;
     text-decoration: none;
     top:-75px;
-    left:30%;
+    left:25%;
 }
 }
 
 @media (max-width:600px){
     img{
+        position:relative;
+        left:-20px;
         width: 120px;
     height: 120px;
     }
