@@ -11,12 +11,7 @@ img{
     height: 200px;
    
 }
-@media (max-width:600px){
-    img{
-    width:80px;
-        height:80px;
-    }
-}
+
 li{
     display: inline;
 }
@@ -30,14 +25,7 @@ li{
     top: -120px;
     left: 35%;
 }
-@media (max-width:600px){
-    .social{
-        position:relative;
-        left:20%;
-        top:-100px;
-    font-size:1.2rem;
-    }
-}
+
 .icon{
     text-decoration: none;
     position: relative;
@@ -46,13 +34,7 @@ li{
     font-size: 1.7rem;
     color: #55adbd;
 }
-@media (max-width:600px){
-    .icon{
-    font-size:0.7rem;
-        left:45%;
-        top:-100px
-    }
-}
+
 .social:hover{
     color: #0f0f0f;
     transition:1s ease-in-out;
@@ -75,17 +57,61 @@ box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;;
     color: black;
     font-family: 'Hubballi', cursive;
 }
-@media (max-width:600px){
-    article{
-    font-size:0.7rem;
-        text-align:center;
-        width:25%;
-        left:15%;
-    }
-}
+
 .github-account{
     color: red;
     font-family: 'Hubballi', cursive;
     text-align: center;
     text-decoration: none;
+}
+@media (max-width:600px){
+article{
+   
+    font-size:0.7rem;
+    width: 75%;
+    left: 11.5%;
+}
+}
+
+@media (max-width:600px){
+.icon:hover{
+    transition: 0.7s ease-in-out;
+    font-size: 1.5rem;
+}
+}
+
+@media (max-width:600px){
+.social:hover{
+    font-size: 1.3rem;
+    transition: 0.7s ease-in-out;
+}
+}
+
+@media (max-width:600px){
+.icon{
+    position: relative;
+    left: 83%;
+    top:-91.5px;
+    font-size:1rem;
+
+
+}
+}
+
+@media (max-width:600px){
+.social{
+    font-size: 1rem;
+    padding: 3px;
+    position:relative;
+    text-decoration: none;
+    top:-75px;
+    left:30%;
+}
+}
+
+@media (max-width:600px){
+    img{
+        width: 120px;
+    height: 120px;
+    }
 }
