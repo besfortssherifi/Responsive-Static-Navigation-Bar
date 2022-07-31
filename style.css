@@ -92,7 +92,7 @@ article{
     position: relative;
     left: 80%;
     top:-91.5px;
-    font-size:1rem;
+    font-size:0.7rem;
 
 
 }
@@ -100,12 +100,12 @@ article{
 
 @media (max-width:600px){
 .social{
-    font-size: 1rem;
+    font-size: 0.7rem;
     padding: 3px;
     position:relative;
     text-decoration: none;
     top:-75px;
-    left:25%;
+    left:22%;
 }
 }
 
@@ -113,7 +113,7 @@ article{
     img{
         position:relative;
         left:-20px;
-        width: 120px;
+        width: 100px;
     height: 120px;
     }
 }
