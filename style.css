@@ -11,6 +11,12 @@ img{
     height: 200px;
    
 }
+@media (max-width:600px){
+    img{
+    width:80px;
+        height:80px;
+    }
+}
 li{
     display: inline;
 }
@@ -24,6 +30,14 @@ li{
     top: -120px;
     left: 35%;
 }
+@media (max-width:600px){
+    .social{
+        position:relative;
+        left:20%;
+        top:-100px;
+    font-size:1.2rem;
+    }
+}
 .icon{
     text-decoration: none;
     position: relative;
@@ -31,6 +45,13 @@ li{
     top: -152px;
     font-size: 1.7rem;
     color: #55adbd;
+}
+@media (max-width:600px){
+    .icon{
+    font-size:0.7rem;
+        left:45%;
+        top:-100px
+    }
 }
 .social:hover{
     color: #0f0f0f;
@@ -53,6 +74,14 @@ box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;;
     left: 25%;
     color: black;
     font-family: 'Hubballi', cursive;
+}
+@media (max-width:600px){
+    article{
+    font-size:0.7rem;
+        text-align:center;
+        width:25%;
+        left:15%;
+    }
 }
 .github-account{
     color: red;
